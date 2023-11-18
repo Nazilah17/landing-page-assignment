@@ -1,0 +1,226 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*navbar*/
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 5%;
+}
+
+nav ul li a {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(220, 154, 254);
+}
+
+.navi {
+    list-style: none;
+}
+
+.navi li {
+    display: inline-block;
+    padding: 0px 85px;
+}
+
+.navi li a:hover {
+    background-color: rgb(220, 154, 254);
+    padding: 9px 25px;
+    border-radius: 50px;
+    color: white;
+}
+
+.cta button {
+    font-family: 'Josefin Sans', sans-serif; 
+    font-size: larger;
+    color: white;
+    background-color: rgb(220, 154, 254);
+    border-radius: 50px;
+    border-style: none;
+    padding: 10px 27px;
+    cursor: pointer;
+    transition: all 0.3s
+    ease 0s;
+}
+
+.cta button:hover {
+    color: rgb(220, 154, 254);
+    background-color: white;
+    border-color: rgb(220, 154, 254);
+    border-style: solid;
+    border-width: 2px;
+}
+
+
+#logo {
+    cursor: pointer;
+    margin-right: auto;
+}
+
+/*main*/
+.awal {
+    display: grid;
+    grid-template-columns: 45% auto;
+    padding: 4em 1em;
+    align-items: justify;
+}
+
+.deskripsi {
+    background-color: white;
+    height: 500px;
+    border: 2px;
+    margin: 20px;
+    width: 85%;
+    margin-left: 40px;
+}
+
+.deskripsi h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(117, 40, 156);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+#description {
+    margin-bottom: 40px;
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: justify;
+    text-indent: 40px
+}
+
+#description::first-letter {
+    font-size: larger;
+}
+
+#button {
+    background-color: rgb(225, 169, 254);
+    color: white;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+#button:hover {
+    background-color: rgb(161, 99, 192);
+}
+
+
+/*join*/
+#join h2, h3{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#join h2 {
+    color: white;
+    font-size: xx-large;
+    margin-top: 2.5%;
+}
+
+#join h3 {
+    margin-bottom: 2.5%;
+}
+
+#gt2 {
+    border-radius: 50%;
+    margin-bottom: 5%;
+}
+
+#join {
+    background-color: rgb(225, 169, 254);
+    padding: 15px 15px;
+    padding-bottom: 20px;
+    margin-top: 25px;
+}
+
+form {
+    color: white;
+    font-family: 'Josefin Sans', sans-serif;    
+}
+
+form label{
+    margin-bottom: 5%;
+}
+
+form input {
+    height: 30px;
+    width: 280px;
+    margin-bottom: 20px;
+}
+
+#status {
+    height: 15px;
+    width: 15px;
+}
+
+#submit-form {
+    background-color: white;
+    color: rgb(225, 169, 254);;
+    padding: 10px 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: larger;
+    border-style: none;
+    margin-bottom: 20px;
+}
+
+#submit-form:hover {
+    background-color: rgb(161, 99, 192);
+    color: white;
+}
+
+/*footer*/
+footer {
+    margin: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+footer button a{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: rgb(220, 154, 254);
+    text-decoration: none;
+}
+
+footer button {
+    border-style: none;
+    background-color: white;
+}
+
+footer button a:hover {
+    color: white;
+}
+
+footer button:hover {
+    background-color: rgb(220, 154, 254);
+    padding: 9px 25px;
+    border-radius: 50px;
+}
+
+footer b {
+    font-size: xx-large;
+    color: rgb(220, 154, 254);
+}
+
+footer a img {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+footer a img:hover {
+    background-color: rgb(220, 154, 254);
+    border-radius: 50%;
+    padding: 5px;
+    border-color: black;
+    border-style: dashed;
+}
+
